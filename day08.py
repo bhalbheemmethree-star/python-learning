@@ -1,5 +1,5 @@
 # string methods in Python
-# Strings are immutable 
+
 
 a = "Bhal bheem"
 b = "!!!rohit!!!!!!"
