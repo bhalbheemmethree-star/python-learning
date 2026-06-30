@@ -1,4 +1,3 @@
-
 # FIRST PYTHON PROGRAM
 
 #  TASK 1 (first program)
