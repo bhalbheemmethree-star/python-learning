@@ -19,7 +19,7 @@ int = 3 , 7
 
 list = [1, 2, 3, "hello", True] # MUTABLE
 
-print(a)
+print(a) 
 print(b)
 
 print(type(a))
