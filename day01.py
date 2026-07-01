@@ -1,6 +1,7 @@
-# FIRST PYTHON PROGRAM
+ # day 01: my first program 
+  • print statement
 
-#  TASK 1 (first program)
+•
 print("Hello, World")
 print("I am starting python")
 print("this is my first python program")
