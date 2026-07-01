@@ -26,7 +26,7 @@ print(b.endswith("!!!!!!"))
 #  if string ends with given specified value it prints true or prints false
 print(a.find("e")) # prints -1 if character not found in a string
 # it finds the specific character in a string and prints the number
-print(a.index(z))
+# print(a.index(z))
 # this prints value error 
 print(a.isalnum()) # even space in string also a false
 # if the strings contains A-Z,a-z,0-9 it prints true if any other character it prints false

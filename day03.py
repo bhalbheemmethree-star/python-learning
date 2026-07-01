@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # day 03: Data types and Variables
   •variables in python
   •data types 
@@ -5,6 +6,17 @@
   •type() function
 
 •
+=======
+ 
+# boolean data 
+# dictionary data type: dict
+# numeric data types: int, float, complex
+# sequence data types: list, tuple
+# string should always be in quotes
+# text data type: str
+# variables and data types
+# we can use variable operations only if they are of the same data type
+>>>>>>> e1b51be (/Users/bhalbheemmethree/Desktop/python-learning)
 a = 1
 b = "bhalbheem"
 c = 12.8
