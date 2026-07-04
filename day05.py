@@ -13,5 +13,4 @@ y = input("enter second number:")
 print(int(x)+int(y))
 print(x + y) # this will concatenate the two strings
 
-
-
+# completed
