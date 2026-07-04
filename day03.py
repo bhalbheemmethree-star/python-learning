@@ -22,7 +22,6 @@ float = 3.14 , 2.2
 list = [1, 2, 3, "hello", True] # MUTABLE
 tuple = (1, 2, 3, "hello", True) # IMMUTABLE
 
-# string should always be in quotes
 # we can use variable operations only if they are of the same data type
 
 print(type(a))
