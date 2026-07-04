@@ -14,4 +14,3 @@ c = 1.09
 d = 8
 print(c + d) 
 # output: 9.09 , implicit type casting, python automatically converts the integer to float and then adds them
-
