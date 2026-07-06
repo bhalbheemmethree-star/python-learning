@@ -1,4 +1,4 @@
-# # break and continue in python
+# break and continue in python
 
 for i in range(14):
     if i == 10:
