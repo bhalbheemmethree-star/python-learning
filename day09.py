@@ -33,7 +33,7 @@ if (num < 0):
 elif(num == 0):
     print("number is zero")
 elif(num == 999):
-    print ("number is special")
+    print("number is special")
 else:
     print("number is positive")
 
@@ -46,10 +46,10 @@ if (num < 0):
     print("number is negative")
 elif(num > 0):
     if(num <= 10):
-        print ("number is between 1 - 10")
+        print("number is between 1 - 10")
     elif(num >= 10 and num <= 20):
-        print ("number is between 11 - 20")
+        print("number is between 11 - 20")
     else:
-        print ("number is greater than 20")
+        print("number is greater than 20")
 else:
     print("number is zero")
