@@ -48,7 +48,7 @@ def name(**name):  # for dictionary type of arguments we use ** before the varia
 name(first="Bhalbheem", last="Methree")
 
 
-# Rwturn statement
+# Return statement
 def Average(*numbers): 
     sum = 0
     for i in numbers:
