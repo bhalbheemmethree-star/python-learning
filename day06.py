@@ -15,3 +15,4 @@ print(name[3])
 
 for character in name:
     print (character) #this is for looping through the string and printing each character on a new line
+
