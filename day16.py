@@ -13,3 +13,20 @@ print(l[4])
 print(l[-3])# Negative index
 print(l[len(l)-3])# same output but positive index
 
+if 3 in l:
+    print("yes")
+else:
+    print("No")
+
+if "bhal" in "bhalbheem":
+    print("yes")
+
+# jump index
+print(l[1:5:2])
+
+
+# list comprehension
+lst = [i*i for i in range(8)]
+print(lst)
+lst = [i*i for i in range(8) if i%2 == 0]
+print(lst)
