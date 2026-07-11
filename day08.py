@@ -46,4 +46,5 @@ print(a.startswith("B"))
 print(a.swapcase())
 # this changes the character casing upper to lower and vice versa
 print(a.title())
-# this captalize the first letter of every word in a string
+# this captalize the first letter of every word in a string.
+
