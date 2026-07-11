@@ -12,3 +12,4 @@ len1 = len(Fruit)
 print("Mango is a",len1,"letter word")
 print(Fruit[0:-2])
 print(Fruit[-4:-2])
+
