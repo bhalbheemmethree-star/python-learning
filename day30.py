@@ -7,3 +7,5 @@ if (a<5 or a>9):
 
 
 print("Hey i am bhalbheem methree")
+
+# this error we raise wantedly because the code should stop running if any input wont work 
