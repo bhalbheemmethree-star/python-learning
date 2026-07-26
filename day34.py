@@ -1,26 +1,26 @@
-# # how import works in python
+# how import works in python
 
-# import math
-# result = math.factorial(10)
-# print(result)
+import math
+result = math.factorial(10)
+print(result)
 
-# x = math.sqrt(9)
-# print(x)
-
-
-# # the as keyword we can use module name in shortcut
-# import math as a 
-# result = a.factorial(10)
-# print(result)
-
-# # we can print all functions in a module
-# print(dir(math))
+x = math.sqrt(9)
+print(x)
 
 
-from main import welcome, harry
+# the as keyword we can use module name in shortcut
+import math as a 
+result = a.factorial(10)
+print(result)
 
-welcome()
-print(harry)
+# we can print all functions in a module
+print(dir(math))
+
+
+# from main import welcome, harry
+
+# welcome()
+# print(harry)
 
 # prints
 # hey welcome my friend
