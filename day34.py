@@ -17,10 +17,10 @@ print(result)
 print(dir(math))
 
 
-# from main import welcome, harry
+from main import welcome, harry
 
-# welcome()
-# print(harry)
+welcome()
+print(harry)
 
 # prints
 # hey welcome my friend
