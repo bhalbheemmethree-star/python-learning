@@ -8,3 +8,5 @@ if __name__ == "__main__":
     
 # if we print that name and main thing it only runs here cant import that function
 # if we import and print it shows what we wrote after == in function
+
+
