@@ -1,12 +1,8 @@
-def welcome():
-    print("hey you are welcome from main")
+import os
 
-print(__name__)
-if __name__ == "__main__":
-    welcome()
+if (not os.path.exists("data")):
+    os.mkdir("data")
 
-    
-# if we print that name and main thing it only runs here cant import that function
-# if we import and print it shows what we wrote after == in function
-
+for i in range(0, 100):
+    os.mkdir(f"data/day{i + 1}")
 
