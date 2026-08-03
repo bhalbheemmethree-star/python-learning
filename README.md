@@ -1,58 +1,59 @@
-# 👋 Hi, I'm Bhal Bheem Methree
+# 🐍 Python Learning
 
-## 🚀 About Me
-I'm a Computer Science student passionate about Backend Development.
+Welcome to my Python Learning repository.
 
-Currently learning:
-- Python
-- Problem Solving
-- Data Structures & Algorithms
-- Git & GitHub
+This repository contains my topic-wise Python practice code, notes, and examples created while learning Python from beginner to advanced concepts.
 
-My goal is to become a Backend Python Developer and build scalable web applications.
+## 📚 Topics Covered
 
----
+- Python Basics
+- Variables & Data Types
+- Operators
+- Input & Output
+- Conditional Statements
+- Loops
+- Functions
+- Strings
+- Lists
+- Tuples
+- Sets
+- Dictionaries
+- File Handling
+- Exception Handling
+- Modules & Packages
+- Object-Oriented Programming (OOP)
+- Iterators & Generators
+- Decorators
+- Regular Expressions
+- Date & Time
+- Working with Files
+- Python Best Practices
 
-## 🛠️ Skills
+## 🎯 Purpose
 
-- Python
+The purpose of this repository is to:
+
+- Practice Python concepts
+- Strengthen programming fundamentals
+- Build problem-solving skills
+- Prepare for backend development
+- Track my Python learning journey
+
+## 🛠 Technologies Used
+
+- Python 3
+- Visual Studio Code
 - Git
 - GitHub
 
-Currently Learning:
-- Data Structures & Algorithms
-- SQL
-- PostgreSQL
-- Django (Upcoming)
+## 📂 Repository Structure
+
+Each file represents a Python topic or concept that I practiced during my learning journey.
+
+## 👨‍💻 Author
+
+**Bhalbheem Methree**
 
 ---
 
-## 📂 Current Repositories
-
-### 📘 python-learning
-Daily Python learning, practice programs, notes, and concepts.
-
-### 💻 python-projects
-Python mini projects built while learning.
-
----
-
-## 🎯 Goals for 2027
-
-- ✅ Master Python
-- ✅ Learn Git & GitHub
-- 🔄 Master DSA
-- 🔄 Learn SQL & PostgreSQL
-- 🔄 Learn Django
-- 🔄 Build Backend Projects
-- 🔄 Get a Software Development Internship
-
----
-
-## 📫 Connect With Me
-
-GitHub:
-https://github.com/bhalbheemmethree-star
-
-Email:
-bhalbheemmethree@gmail.com
+⭐ This repository is continuously updated as I learn new Python concepts.
