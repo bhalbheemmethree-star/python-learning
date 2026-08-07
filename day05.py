@@ -1,16 +1,129 @@
-#day 05: taking user input in python
+# ==========================================================
+# PYTHON DAY 5
+# TAKING USER INPUT
+# ==========================================================
 
-a = input()
-print("my name is",a)
+# ==========================================================
+# input()
+# ==========================================================
 
-b = input("enter your name: ")
-print("my name is",b)
+# input():
+# Used to take input from the user.
 
-# input every variable takes as a string so to change datatype we use type casting
+name = input("Enter your name: ")
 
-x = input("enter first number:")
-y = input("enter second number:")
-print(int(x)+int(y))
-print(x + y) # this will concatenate the two strings
+print(name)
 
-# completed
+# Example
+
+# Input
+
+# Bhalbheem
+
+# Output
+
+# Bhalbheem
+
+
+# ==========================================================
+# input() ALWAYS RETURNS STRING
+# ==========================================================
+
+age = input("Enter your age: ")
+
+print(type(age))
+
+# Input
+
+# 18
+
+# Output
+
+# <class 'str'>
+
+# Even if the user enters a number,
+# input() always returns a STRING.
+
+
+# ==========================================================
+# INTEGER INPUT
+# ==========================================================
+
+age = int(input("Enter your age: "))
+
+print(age)
+print(type(age))
+
+# Input
+
+# 18
+
+# Output
+
+# 18
+# <class 'int'>
+
+
+# ==========================================================
+# FLOAT INPUT
+# ==========================================================
+
+height = float(input("Enter your height: "))
+
+print(height)
+
+# Input
+
+# 180.5
+
+# Output
+
+# 180.5
+
+
+# ==========================================================
+# MULTIPLE INPUTS
+# ==========================================================
+
+name = input("Enter Name: ")
+age = int(input("Enter Age: "))
+height = float(input("Enter Height: "))
+
+print(name)
+print(age)
+print(height)
+
+
+# ==========================================================
+# IMPORTANT POINTS
+# ==========================================================
+
+# input() takes input from the user.
+
+# input() always returns String.
+
+# Use int() for Integer input.
+
+# Use float() for Decimal input.
+
+# Use str() only if needed because
+# input() already returns String.
+
+
+# ==========================================================
+# COMMON MISTAKES
+# ==========================================================
+
+age = input("Enter age: ")
+
+# Wrong
+
+print(age + 10)
+
+# Error
+
+# Correct
+
+age = int(input("Enter age: "))
+
+print(age + 10)
