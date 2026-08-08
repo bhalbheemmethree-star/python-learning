@@ -198,18 +198,4 @@ print(b)
 
 # are used for Type Casting.
 
-# ==========================================================
-# INTERVIEW QUESTIONS
-# ==========================================================
-# Q1. What is a Variable?
-# Q2. What is Dynamic Typing?
-# Q3. Difference between int and float?
-# Q4. Difference between None and 0?
-# Q5. What does type() return?
-# Q6. What does id() return?
-# Q7. How do you swap two variables?
-# Q8. What is Multiple Assignment?
-# 09. Can one variable store different data types?
-# Q10. What is None?
-
 
