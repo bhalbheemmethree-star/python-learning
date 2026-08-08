@@ -1,50 +1,398 @@
-# day 08: string methods in Python
+# ==========================================================
+# PYTHON DAY 8
+# STRING METHODS
+# ==========================================================
 
-a = "Bhal bheem"
-b = "!!!rohit!!!!!!"
-c = "machine"
-print(len(a))
-# it prints the number of characters  in string
-print(a.upper())
-# prints all the letters in upper case in a string
-print(a.lower())
-# prints all the letters in lower case in a string
-print(b.rstrip("!"))
-# removes the specific character from a string
-print(a.replace("Bhalbheem","developer"))
-# replace all occurance of string with another string
-print(a.split(" "))
-# splits the specified instance and returns the seperated strings as a list items
-print(c.capitalize())
-# this converts only first letter of string into upper case
-print(c.center(10))
-# this can change the length of a string as we entered 10 now length of string "c" is 10
-print(a.count("h"))
-# this counts the specified character used in the string
-print(b.endswith("!!!!!!"))
-#  if string ends with given specified value it prints true or prints false
-print(a.find("e")) # prints -1 if character not found in a string
-# it finds the specific character in a string and prints the number
-# print(a.index(z))
-# this prints value error 
-print(a.isalnum()) # even space in string also a false
-# if the strings contains A-Z,a-z,0-9 it prints true if any other character it prints false
-print(c.isalpha())
-# if the string contains A-Z,a-z it prints true if any number or other character it prints false
-print(c.islower())
-# if all the characters in string are in lower case it prints true or it prints false
-print(b.isprintable())
-# if string is printable it prints true or false
-print(a.isspace())
-# if string contains only empty space prints true or if any other character prints false
-print(a.istitle())
-# prints true if first letter of all words in a string is capitalized or prints false
-print(a.isupper())
-# prints true if all characters in a string are in uppercase or prints false
-print(a.startswith("B"))
-# id string starts with soecified character prints true or prints 
-print(a.swapcase())
-# this changes the character casing upper to lower and vice versa
-print(a.title())
-# this captalize the first letter of every word in a string.
 
+# ==========================================================
+# WHAT ARE STRING METHODS?
+# ==========================================================
+
+# String methods are built-in functions used to perform
+# different operations on strings.
+
+name = "python"
+
+print(name.upper())
+
+# Output
+
+# PYTHON
+
+
+# ==========================================================
+# upper()
+# ==========================================================
+
+name = "python"
+
+print(name.upper())
+
+# Output
+
+# PYTHON
+
+# upper() converts all letters to uppercase.
+
+
+# ==========================================================
+# lower()
+# ==========================================================
+
+name = "PYTHON"
+
+print(name.lower())
+
+# Output
+
+# python
+
+# lower() converts all letters to lowercase.
+
+
+# ==========================================================
+# capitalize()
+# ==========================================================
+
+name = "python"
+
+print(name.capitalize())
+
+# Output
+
+# Python
+
+# capitalize() makes the first character uppercase
+# and the remaining characters lowercase.
+
+
+# ==========================================================
+# title()
+# ==========================================================
+
+text = "python backend development"
+
+print(text.title())
+
+# Output
+
+# Python Backend Development
+
+# title() makes the first character of each word uppercase.
+
+
+# ==========================================================
+# swapcase()
+# ==========================================================
+
+text = "Python"
+
+print(text.swapcase())
+
+# Output
+
+# pYTHON
+
+# swapcase() changes uppercase letters to lowercase
+# and lowercase letters to uppercase.
+
+
+# ==========================================================
+# strip()
+# ==========================================================
+
+text = "   Python   "
+
+print(text.strip())
+
+# Output
+
+# Python
+
+# strip() removes spaces from the beginning and end.
+
+
+# ==========================================================
+# lstrip()
+# ==========================================================
+
+text = "   Python"
+
+print(text.lstrip())
+
+# Output
+
+# Python
+
+# lstrip() removes spaces from the left side.
+
+
+# ==========================================================
+# rstrip()
+# ==========================================================
+
+text = "Python   "
+
+print(text.rstrip())
+
+# Output
+
+# Python
+
+# rstrip() removes spaces from the right side.
+
+
+# ==========================================================
+# replace()
+# ==========================================================
+
+text = "I like Java"
+
+print(text.replace("Java", "Python"))
+
+# Output
+
+# I like Python
+
+# replace() replaces one part of a string with another.
+
+
+# ==========================================================
+# split()
+# ==========================================================
+
+text = "Python Java C++"
+
+result = text.split()
+
+print(result)
+
+# Output
+
+# ['Python', 'Java', 'C++']
+
+# split() divides a string into parts
+# and returns them as a list.
+
+
+# ==========================================================
+# split() WITH SEPARATOR
+# ==========================================================
+
+text = "apple,banana,mango"
+
+result = text.split(",")
+
+print(result)
+
+# Output
+
+# ['apple', 'banana', 'mango']
+
+
+# ==========================================================
+# join()
+# ==========================================================
+
+words = ["Python", "is", "easy"]
+
+result = " ".join(words)
+
+print(result)
+
+# Output
+
+# Python is easy
+
+# join() joins elements together using the given separator.
+
+
+# ==========================================================
+# find()
+# ==========================================================
+
+text = "I love Python"
+
+print(text.find("Python"))
+
+# Output
+
+# 7
+
+# find() returns the index of the first occurrence
+# of the given substring.
+
+# If it is not found, it returns -1.
+
+
+# ==========================================================
+# count()
+# ==========================================================
+
+text = "banana"
+
+print(text.count("a"))
+
+# Output
+
+# 3
+
+# count() returns the number of occurrences
+# of a character or substring.
+
+
+# ==========================================================
+# startswith()
+# ==========================================================
+
+text = "Python Programming"
+
+print(text.startswith("Python"))
+
+# Output
+
+# True
+
+# startswith() checks whether a string starts
+# with the specified value.
+
+
+# ==========================================================
+# endswith()
+# ==========================================================
+
+text = "Python Programming"
+
+print(text.endswith("Programming"))
+
+# Output
+
+# True
+
+# endswith() checks whether a string ends
+# with the specified value.
+
+
+# ==========================================================
+# isalpha()
+# ==========================================================
+
+text = "Python"
+
+print(text.isalpha())
+
+# Output
+
+# True
+
+# isalpha() returns True if all characters are letters.
+
+
+# ==========================================================
+# isdigit()
+# ==========================================================
+
+text = "12345"
+
+print(text.isdigit())
+
+# Output
+
+# True
+
+# isdigit() returns True if all characters are digits.
+
+
+# ==========================================================
+# isalnum()
+# ==========================================================
+
+text = "Python123"
+
+print(text.isalnum())
+
+# Output
+
+# True
+
+# isalnum() returns True if all characters
+# are letters or numbers.
+
+
+# ==========================================================
+# isspace()
+# ==========================================================
+
+text = "   "
+
+print(text.isspace())
+
+# Output
+
+# True
+
+# isspace() returns True if all characters are whitespace.
+
+
+# ==========================================================
+# IMPORTANT POINTS
+# ==========================================================
+
+# upper()      -> Converts to uppercase
+
+# lower()      -> Converts to lowercase
+
+# capitalize() -> Capitalizes the first character
+
+# title()      -> Capitalizes the first character of each word
+
+# swapcase()   -> Swaps uppercase and lowercase
+
+# strip()      -> Removes spaces from both sides
+
+# lstrip()     -> Removes spaces from left
+
+# rstrip()     -> Removes spaces from right
+
+# replace()    -> Replaces text
+
+# split()      -> Splits string into a list
+
+# join()       -> Joins elements into a string
+
+# find()       -> Finds the first occurrence
+
+# count()      -> Counts occurrences
+
+# startswith() -> Checks the beginning
+
+# endswith()   -> Checks the ending
+
+# isalpha()    -> Checks whether all characters are letters
+
+# isdigit()    -> Checks whether all characters are digits
+
+# isalnum()    -> Checks whether all characters are
+#                 letters or numbers
+
+# isspace()    -> Checks whether all characters are spaces
+
+
+# ==========================================================
+# IMPORTANT
+# ==========================================================
+
+text = "python"
+
+new_text = text.upper()
+
+print(text)
+print(new_text)
+
+# Output
+
+# python
+# PYTHON
+
+# String methods do not change the original string.
+# They return a new string because strings are immutable.
