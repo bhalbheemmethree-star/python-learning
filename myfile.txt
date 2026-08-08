@@ -1,7 +1,4 @@
 alice
 bob
 charlie
-dravid 
-tr
-rfde
-efef
+dravid
